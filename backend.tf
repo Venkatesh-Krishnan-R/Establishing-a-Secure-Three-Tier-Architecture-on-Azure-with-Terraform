@@ -53,7 +53,7 @@ resource "azurerm_mssql_database" "fg-database" {
   zone_redundant = false
 
   tags = {
-    Application = "Fitnessgeek-demo"
+    Application = "Application-demo"
     Env = "Prod"
   }
 }
